@@ -1,0 +1,25 @@
+#popoverOpener {
+    position: absolute;
+    left: 50%;
+    margin-left: -10vw;
+    text-align: center;
+    top: 45vw;
+    width: 50vw;
+}
+
+#popoverWrapper {
+    border: .5px solid black;
+    background: rgba(128, 128, 128, 0.397);
+}
+
+.popover-content > div {
+    text-align: center;
+    padding: 1em;
+}
+
+.popover-content > div > a:link {
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: .2em;
+    border: 1px solid lavender;
+}
