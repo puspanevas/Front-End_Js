@@ -1,7 +1,7 @@
 #popoverOpener {
     position: absolute;
     left: 50%;
-    margin-left: -10vw;
+    margin-left: -20vw;
     text-align: center;
     top: 45vw;
     width: 50vw;
@@ -10,6 +10,8 @@
 #popoverWrapper {
     border: .5px solid black;
     background: rgba(128, 128, 128, 0.397);
+    margin: 5em;
+    padding: 1em;
 }
 
 .popover-content > div {
